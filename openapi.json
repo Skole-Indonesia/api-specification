@@ -1,0 +1,27 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Test OpenAPI",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://catfact.ninja",
+      "description": "Sample"
+    }
+  ],
+  "paths": {
+    "/fact": {
+        "get": {
+            "description": "",
+            "parameters": [
+            ],
+            "responses": {
+                "200": {
+                    "description": "OK",
+                },
+            },
+        }
+    }
+  }
+}
